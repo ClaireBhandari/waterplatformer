@@ -1,0 +1,161 @@
+
+
+/*.fishsprite {
+    position:absolute;
+    top:1vh;
+    width: 25vh;
+}*/
+
+
+.startbutton {
+position:absolute;
+top:55vh;
+left: 14vh;
+
+}
+
+.startbutton:hover {
+    background-color: white;
+}
+
+.container2 {
+    background-color: blue;
+    width:100vw;
+    height:100vh;
+     overflow: hidden;
+}
+.warmseabg {
+    position:relative;
+    width:100vw;
+    overflow: hidden;
+}
+
+.sandbgfore {
+    position:absolute;
+    bottom: -10vh;
+    width:4000px;
+    left : -1000px;
+}
+
+.sandbgback {
+    position:absolute;
+    bottom: 0vh;
+    width:4000px;
+    left : -1000px;
+}
+
+
+
+.fishhitbox {
+    position:absolute;
+   /* top: 20vh;
+    left:50vh;*/
+       /* background-color: blue;
+    background-color: red;*/
+    width:20vh;
+    height:20vh;
+    z-index: 10;
+
+}
+
+/*make position/size into class later */
+.enemyhitbox {
+    position:absolute;
+   /* top: 50vh;
+    left:55vh;*/
+    background-color: red;
+    width:35vh;
+    height:20vh;
+    z-index: 10;
+
+}
+
+.enemysprite {
+    width: 35vh;
+}
+
+
+.playersprite {
+
+    width: 18vh;
+}
+
+.playerspriteleft {
+transform: scaleX(-1);
+    width: 18vh;
+}
+
+.brownrock {
+       position:absolute;
+    bottom: 10vh;
+    width:400px;
+    left : 800px;
+    z-index: 20;
+}
+
+.bgcontainer {
+       position:absolute;
+    bottom: 1vh;
+    width:400px;
+    left : 800px;
+    z-index: 20;
+   /* background-color: greenyellow;*/
+}
+
+.redalgae {
+    position:absolute;
+    bottom: 24vh;
+    width: 150px;
+    left: 870px;
+}
+
+
+.greenalgae {
+    position:absolute;
+    bottom: 24vh;
+    width: 150px;
+    left: 930px;
+}
+.sponge {
+       position:absolute;
+    bottom: 10vh;
+    width:130px;
+    left : 1400px;
+    z-index: 20;
+}
+
+.heartbox {
+    position: absolute;
+    border-color: black;
+    border-width: 1vh;
+    top: 10px;
+    left: 1400px;
+    width: 45vh;
+    height: 7vh;
+    background-color: wheat;
+    z-index: 35;
+}
+
+.heartbox img {
+    /*background-color: green;*/
+    height: 5vh;
+float:left;
+}
+
+
+.score {
+    position: absolute;
+    text-align:center;
+    border-color: black;
+    border-width: 1vh;
+    top: 10px;
+    left: 20px;
+    width: 10vh;
+    height: 7vh;
+    background-color: wheat;
+    z-index: 35;
+}
+
+.points {
+font-size: 30px;
+}
