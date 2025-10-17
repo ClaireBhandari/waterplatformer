@@ -1,0 +1,1 @@
+No images uploaded, so add your own image folder with sprites for enemies, player (include idle, moving and attack animation sprites), bg (background) sprites, health bar icons (heart etc.), background layers and background. Also title page.
